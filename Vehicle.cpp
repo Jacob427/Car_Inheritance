@@ -22,6 +22,7 @@ int Vehicle::get_year() {
 }
 
 void Vehicle::displayInfo() {
+	cout << "Vehicle Information:" << endl;
 	cout << "Manufacturer: " << manufacturer << endl;
-	cout << "Year build: " << year_built << endl;
+	cout << "Year built: " << year_built << endl;
 }

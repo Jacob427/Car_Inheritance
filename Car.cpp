@@ -8,7 +8,7 @@ void Car::set_doors(int doors) {
 	door_number = doors;
 }
 
-int Car::get_doors(int doors) {
+int Car::get_doors() {
 	return door_number;
 }
 

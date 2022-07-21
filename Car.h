@@ -8,7 +8,7 @@ private:
 public:
 	Car(string maker, int year, int doors);
 	void set_doors(int doors);
-	int get_doors(int doors);
+	int get_doors();
 	void displayInfo();
 };
 
