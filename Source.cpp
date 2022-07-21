@@ -38,6 +38,4 @@ int main() {
 	Car motor_car (manufacturer_input, year_input, doors);
 	motor_car.displayInfo();
 
-
-
 }
